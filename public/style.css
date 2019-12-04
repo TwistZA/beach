@@ -1,0 +1,41 @@
+html {
+  height: 100%;
+}
+
+#content {
+  text-align: center;
+  padding-top: 15%;
+  text-shadow: 0px 4px 3px teal, 0px 8px 13px pink, 0px 18px 23px silver;
+  /*x offset, y offset, blur radius color */
+}
+.navbar-default {
+  background-color: white;
+  color: white;
+}
+
+body {
+  background-image: url("https://cdn.pixabay.com/photo/2015/11/25/09/42/rocks-1061540_960_720.jpg");
+  background-position: center;
+  background-size: cover;
+  font-family: Righteous;
+  color: white;
+}
+
+hr {
+  max-width: 40%;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 5em;
+}
+
+button {
+  text-shadow: 0px 1px 1px red;
+}
+
+#Email_Sent_Message {
+  font-size: 2em;
+  color: lime;
+}
